@@ -1,0 +1,9 @@
+.navContainer {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    background-color: coral;
+}
+
+.david, .links, .icons {
+    justify-self: center;
+}
