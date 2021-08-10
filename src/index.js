@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 import { Nav } from './components'
 
 const App = () => {
@@ -14,6 +15,8 @@ const App = () => {
 }
 
 ReactDOM.render(
-    <App />,
+    <Router>
+        <App />
+    </Router>,
     document.getElementById('root')
 )
