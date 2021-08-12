@@ -2,8 +2,15 @@
     display: grid;
     grid-template-columns: 2fr 3fr 2fr;
     background-color: coral;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .david, .links, .icons {
     justify-self: center;
+}
+
+.links a, .icons a {
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
