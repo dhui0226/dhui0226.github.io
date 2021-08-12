@@ -1,13 +1,23 @@
 .navContainer {
     display: grid;
     grid-template-columns: 2fr 3fr 2fr;
-    background-color: coral;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
 .david, .links, .icons {
     justify-self: center;
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+.david a, .links a {
+    text-decoration: none;
+}
+
+.david a:visited, .links a:visited, .icons a:visited {
+    text-decoration: none;
+    color: black;
 }
 
 .links a, .icons a {

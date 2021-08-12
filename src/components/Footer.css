@@ -1,5 +1,7 @@
 .footerContainer {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    background-color: cornflowerblue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

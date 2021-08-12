@@ -4,6 +4,7 @@ import { default as Projects } from './Projects'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import './Nav.css'
+import { FilterNone } from '@material-ui/icons';
 
 const Nav = () => {
     return (
