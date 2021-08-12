@@ -21,11 +21,11 @@ const Nav = () => {
                 <a href='https://www.linkedin.com/in/david-hui-81b783215/' target="_blank"><LinkedInIcon /></a>
             </div> 
 
-            <Switch>
+            {/*<Switch>
                 <Route exact path='/'></Route>
                 <Route exact path='/about' component={About}></Route>
                 <Route exact path='/projects' component={Projects}></Route>
-            </Switch>
+            </Switch>*/}
         </div>
     )
 }
