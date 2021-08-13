@@ -11,6 +11,14 @@
     font-size: 1.5rem;
 }
 
+a {
+    color: black;
+}
+
+.david a:hover, .links a:hover, .icons a:hover {
+    color: #d7d7d7;
+}
+
 .david a:visited, .links a:visited, .icons a:visited {
     color: black;
 }
@@ -18,10 +26,6 @@
 a:visited:hover {
     color: #d7d7d7;
 }
-
-/*icons a svg:hover {
-    color: #d7d7d7;
-}*/
 
 .david a, .links a {
     text-decoration: none;
