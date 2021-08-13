@@ -9,6 +9,7 @@
     justify-self: center;
     color: #d3d3d3;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 .david a, .links a {
@@ -16,7 +17,6 @@
 }
 
 .david a:visited, .links a:visited, .icons a:visited {
-    text-decoration: none;
     color: black;
 }
 

@@ -1,7 +1,29 @@
 .footerContainer {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     position: absolute;
     bottom: 0;
     width: 100%;
+    margin-top: 2rem;
+}
+
+.fLinks, .fIcons {
+    grid-column-start: 2;
+    justify-self: center;
+    font-size: 1.5rem;
+}
+
+.fLinks a, .fIcons a {
+    text-decoration: none;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.fLinks a:visited, .fIcons a:visited {
+    color: black;
+}
+
+.fLinks {
+    padding-bottom: 1rem;
 }

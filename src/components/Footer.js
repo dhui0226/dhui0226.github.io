@@ -8,13 +8,13 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className='footerContainer'>
-            <div className='links'>
+            <div className='fLinks'>
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
                 <Link to='/projects'>Projects</Link>
             </div>
 
-            <div className='icons'>
+            <div className='fIcons'>
                 <a href='https://github.com/dhui0226' target="_blank"><GitHubIcon /></a>
                 <a href='https://www.linkedin.com/in/david-hui-81b783215/' target="_blank"><LinkedInIcon /></a>
             </div>
