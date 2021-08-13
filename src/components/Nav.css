@@ -7,17 +7,24 @@
 
 .david, .links, .icons {
     justify-self: center;
-    color: #d3d3d3;
     text-decoration: none;
     font-size: 1.5rem;
 }
 
-.david a, .links a {
-    text-decoration: none;
-}
-
 .david a:visited, .links a:visited, .icons a:visited {
     color: black;
+}
+
+a:visited:hover {
+    color: #d7d7d7;
+}
+
+/*icons a svg:hover {
+    color: #d7d7d7;
+}*/
+
+.david a, .links a {
+    text-decoration: none;
 }
 
 .links a, .icons a {
