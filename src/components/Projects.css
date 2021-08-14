@@ -1,5 +1,9 @@
 .projectsContainer {
     display: flex;
     justify-content: center;
-    border: solid black;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 1rem;
 }

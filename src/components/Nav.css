@@ -16,7 +16,7 @@ a {
 }
 
 .david a:hover, .links a:hover, .icons a:hover {
-    color: #d7d7d7;
+    color: #a9a9a9;
 }
 
 .david a:visited, .links a:visited, .icons a:visited {
@@ -24,7 +24,7 @@ a {
 }
 
 a:visited:hover {
-    color: #d7d7d7;
+    color: #a9a9a9;
 }
 
 .david a, .links a {

@@ -6,6 +6,18 @@
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.skillsContainer {
     margin: 2rem;
+}
+
+.skillsContainer h2 {
+    font-size: 3rem;
 }
