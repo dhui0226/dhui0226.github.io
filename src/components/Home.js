@@ -1,5 +1,6 @@
 import './Home.css'
 import Image from './images/me.jpg'
+import { SiReact, SiHtml5, SiCss3, SiJavascript, SiRuby, SiRails, SiPostgresql, SiNodeDotJs } from 'react-icons/si'
 
 const Home = () => {
     return (
@@ -12,6 +13,20 @@ const Home = () => {
 
                 <div className='skillsContainer'>   
                     <h2>Skills</h2>
+                    <div className='techContainer'>
+                        <div className='techRowOne'>
+                            <SiReact />
+                            <SiHtml5 />
+                            <SiCss3 />
+                            <SiJavascript />
+                        </div>
+                        <div className='techRowTwo'>
+                            <SiRuby />
+                            <SiRails />
+                            <SiPostgresql />
+                            <SiNodeDotJs />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

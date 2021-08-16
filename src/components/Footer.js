@@ -1,8 +1,8 @@
 import { Link, Switch } from 'react-router-dom'
 import { default as About } from './About'
 import { default as Projects } from './Projects'
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 import './Footer.css'
 
 const Footer = () => {
@@ -15,8 +15,8 @@ const Footer = () => {
             </div>
 
             <div className='fIcons'>
-                <a href='https://github.com/dhui0226' target="_blank"><GitHubIcon /></a>
-                <a href='https://www.linkedin.com/in/david-hui-81b783215/' target="_blank"><LinkedInIcon /></a>
+                <a href='https://github.com/dhui0226' target="_blank"><FaGithub /></a>
+                <a href='https://www.linkedin.com/in/david-hui-81b783215/' target="_blank"><FaLinkedin /></a>
             </div>
 
             <Switch exact path='/'></Switch>
