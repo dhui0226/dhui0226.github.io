@@ -9,22 +9,6 @@ const Home = () => {
                 <img src={Image} alt='David Hui'/>
                 <h1>David Hui</h1>
                 <p className='desc'>I'm a Full Stack Developer based in <b>Chicago</b>.</p>
-
-                <div className='technologiesContainer'>   
-                    <h2>Technologies that I use</h2>
-                    <div className='techRowOne'>
-                        <SiReact />
-                        <SiHtml5 />
-                        <SiCss3 />
-                        <SiJavascript />
-                    </div>
-                    <div className='techRowTwo'>
-                        <SiRuby />
-                        <SiRails />
-                        <SiPostgresql />
-                        <SiNodeDotJs />
-                    </div>
-                </div>
             </div>
         </div>
     )
