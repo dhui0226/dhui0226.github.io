@@ -1,9 +1,24 @@
 .projectsContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 h1 {
     font-size: 4rem;
     margin: 1rem;
+    text-align: center;
+}
+
+.projectList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: solid black;
+}
+
+.projectOne, .projectTwo, .projectThree, .projectFour {
+    border: solid black;
+    width: 5rem;
+    height: 5rem;
 }
