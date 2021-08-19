@@ -8,16 +8,14 @@ const Projects = () => {
             <div className='projectList'>
                 <div className='projectOne'>
                     <a href='https://github.com/dhui0226/discord_bot' target='_blank'>
-                        <img src={Image} alt='discord'/>
+                        <img className='projectImage' src={Image} alt='discord'/>
                     </a>
-                    <div className='poContainer'>
+                    <div className='nameContainer'>
                         <a href='https://github.com/dhui0226/discord_bot' target='_blank'>
                             <h2>Discord Bot</h2>
                         </a>
                         <a href='https://github.com/dhui0226/discord_bot' target='_blank'>
-                            <button>
-                                View Project
-                            </button>
+                            <button>View Project</button>
                         </a>
                     </div>
                     <div>
@@ -30,7 +28,27 @@ const Projects = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='projectTwo'></div>
+                <div className='projectTwo'>
+                    <a href='https://github.com/dhui0226' target='_blank'>
+                        <img className='projectImage' src={Image} alt='project two'/>
+                    </a>
+                    <div className='nameContainer'>
+                        <a href='https://github.com/dhui0226' target='_blank'>
+                            <h2>MealTrackr</h2>
+                        </a>
+                        <a href='https://github.com/dhui0226' target='_blank'>
+                            <button>View Project</button>
+                        </a>
+                    </div>
+                    <div>
+                        <p>my fitness pal clone</p>
+                        <ul className='list'>
+                            <li>react</li>
+                            <li>ruby</li>
+                            <li>ruby on rails</li>
+                        </ul>
+                    </div>
+                </div>
                 <div className='projectThree'></div>
                 <div className='projectFour'></div>
             </div>
