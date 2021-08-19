@@ -49,8 +49,48 @@ const Projects = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='projectThree'></div>
-                <div className='projectFour'></div>
+                <div className='projectThree'>
+                    <a href='https://github.com/dhui0226' target='_blank'>
+                        <img className='projectImage' src={Image} alt='project three'/>
+                    </a>
+                    <div className='nameContainer'>
+                        <a href='https://github.com/dhui0226' target='_blank'>
+                            <h2>Online Coaching Site</h2>
+                        </a>
+                        <a href='https://github.com/dhui0226' target='_blank'>
+                            <button>View Project</button>
+                        </a>
+                    </div>
+                    <div>
+                        <p>website for coaching client</p>
+                        <ul className='list'>
+                            <li>react</li>
+                            <li>ruby</li>
+                            <li>ruby on rails</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className='projectFour'>
+                    <a href='https://github.com/dhui0226' target='_blank'>
+                        <img className='projectImage' src={Image} alt='project three'/>
+                    </a>
+                    <div className='nameContainer'>
+                        <a href='https://github.com/dhui0226' target='_blank'>
+                            <h2>Social Media App</h2>
+                        </a>
+                        <a href='https://github.com/dhui0226' target='_blank'>
+                            <button>View Project</button>
+                        </a>
+                    </div>
+                    <div>
+                        <p>interact with friends online</p>
+                        <ul className='list'>
+                            <li>react</li>
+                            <li>ruby</li>
+                            <li>ruby on rails</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     )
