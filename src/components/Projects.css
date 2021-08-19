@@ -15,19 +15,34 @@ h1 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     border: solid black;
+    gap: 20px;
 }
 
 .projectOne, .projectTwo, .projectThree, .projectFour {
     border: solid black;
-    width: 5rem;
-    height: 5rem;
 }
 
 .projectOne {
-    background-color: #5865F2;
+    
 }
 
 .projectOne img {
+    background-color: #5865F2;
     width: 100%;
-    height: 100%;
+}
+
+.poContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poContainer > a {
+    text-decoration: none;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
 }

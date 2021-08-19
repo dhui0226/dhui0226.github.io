@@ -15,15 +15,15 @@ a {
     color: black;
 }
 
-.david a:hover, .links a:hover, .icons a:hover {
+.david > a:hover, .links > a:hover, .icons > a:hover {
     color: #a9a9a9;
 }
 
-.david a:visited, .links a:visited, .icons a:visited {
+.david > a:visited, .links > a:visited, .icons > a:visited {
     color: black;
 }
 
-a:visited:hover {
+.david > a:visited:hover, .links > a:visited:hover, .icons > a:visited:hover {
     color: #a9a9a9;
 }
 
