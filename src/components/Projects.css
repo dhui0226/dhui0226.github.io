@@ -4,33 +4,51 @@
     justify-content: center;
 }
 
-h1 {
+.projectTitleContainer > h1 {
     font-size: 4rem;
     margin: 1rem;
     text-align: center;
+}
+
+.projectTitleContainer > p {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 5rem;
 }
 
 .projectList {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    border: solid black;
     gap: 20px;
+    margin: 0 4rem 0 4rem;
 }
 
 .projectOne, .projectTwo, .projectThree, .projectFour {
-    border: solid black;
+    
+}
+
+.projectOne, .projectThree {
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+.projectTwo, .projectFour {
+    margin-right: 2rem;
+    margin-left: 3rem;
 }
 
 .projectImage {
     background-color: #5865F2;
     width: 100%;
+    border-radius: 5px;
 }
 
 .nameContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 1rem 0 1rem 0;
 }
 
 .nameContainer > a {

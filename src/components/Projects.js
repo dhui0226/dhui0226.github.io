@@ -4,7 +4,10 @@ import Image from './images/discordLogo.svg'
 const Projects = () => {
     return (
         <div className='projectsContainer'>
-            <h1>Projects</h1>
+            <div className='projectTitleContainer'>
+                <h1>Projects</h1>
+                <p>You can find the source code for my projects on my <a href='https://github.com/dhui0226' target='_blank'>Github</a></p>
+            </div>
             <div className='projectList'>
                 <div className='projectOne'>
                     <a href='https://github.com/dhui0226/discord_bot' target='_blank'>
