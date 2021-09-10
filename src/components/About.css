@@ -12,7 +12,7 @@
     width: 100vh;
 }
 
-.aboutDesc p {
+.aboutDesc > p {
     display: inline-block;
     padding: 1rem;
     flex-wrap: wrap;
@@ -21,4 +21,23 @@
 h1 {
     font-size: 4rem;
     margin: 1rem;
+}
+
+@media (max-width: 460px) {
+    .aboutContainer {
+        padding: 0 .5rem 0 .5rem;
+    }
+
+    .aboutDesc {
+        width: 100%;
+    }
+
+    .technologiesContainer > h2 {
+        padding: 0 2rem 0 2rem;
+    }
+
+    .techRowOne, .techRowTwo {
+        display: grid;
+        grid-template-columns: repeat(4, .5fr);
+    }
 }
