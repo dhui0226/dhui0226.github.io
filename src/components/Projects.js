@@ -1,5 +1,7 @@
 import './Projects.css'
 import Image from './images/discordLogo.svg'
+import DiscordImage from './images/discordBotScreenshot.png'
+import InfamousImage from './images/powerliftingScreenshot.png'
 
 const Projects = () => {
     return (
@@ -11,7 +13,7 @@ const Projects = () => {
             <div className='projectList'>
                 <div className='projectOne'>
                     <a href='https://github.com/dhui0226/discord_bot' target='_blank'>
-                        <img className='projectImage' src={Image} alt='discord'/>
+                        <img className='projectImage' src={DiscordImage} alt='discord'/>
                     </a>
                     <div className='nameContainer'>
                         <a href='https://github.com/dhui0226/discord_bot' target='_blank'>
@@ -54,7 +56,7 @@ const Projects = () => {
                 </div>
                 <div className='projectThree'>
                     <a href='https://github.com/dhui0226' target='_blank'>
-                        <img className='projectImage' src={Image} alt='project three'/>
+                        <img className='projectImageThree' src={InfamousImage} alt='project three'/>
                     </a>
                     <div className='nameContainer'>
                         <a href='https://github.com/dhui0226' target='_blank'>
