@@ -2,6 +2,8 @@ import './Projects.css'
 import Image from './images/discordLogo.svg'
 import DiscordImage from './images/discordBotScreenshot.png'
 import InfamousImage from './images/powerliftingScreenshot.png'
+import gsImage from './images/graceshopperScreenshot.png'
+import tbaImage from './images/tbaScreenshot.png'
 
 const Projects = () => {
     return (
@@ -35,18 +37,18 @@ const Projects = () => {
                 </div>
                 <div className='projectTwo'>
                     <a href='https://github.com/dhui0226' target='_blank'>
-                        <img className='projectImage' src={Image} alt='project two'/>
+                        <img className='projectImage' src={gsImage} alt='project two'/>
                     </a>
                     <div className='nameContainer'>
                         <a href='https://github.com/dhui0226' target='_blank'>
-                            <h2>MealTrackr</h2>
+                            <h2>Grace Shopper</h2>
                         </a>
                         <a href='https://github.com/dhui0226' target='_blank'>
                             <button>View Project</button>
                         </a>
                     </div>
                     <div>
-                        <p>my fitness pal clone</p>
+                        <p>e-commerce site for meats</p>
                         <ul className='list'>
                             <li>react</li>
                             <li>ruby</li>
@@ -77,18 +79,18 @@ const Projects = () => {
                 </div>
                 <div className='projectFour'>
                     <a href='https://github.com/dhui0226' target='_blank'>
-                        <img className='projectImage' src={Image} alt='project three'/>
+                        <img className='projectImage' src={tbaImage} alt='project three'/>
                     </a>
                     <div className='nameContainer'>
                         <a href='https://github.com/dhui0226' target='_blank'>
-                            <h2>Social Media App</h2>
+                            <h2>TBA</h2>
                         </a>
                         <a href='https://github.com/dhui0226' target='_blank'>
                             <button>View Project</button>
                         </a>
                     </div>
                     <div>
-                        <p>interact with friends online</p>
+                        <p>work in progress</p>
                         <ul className='list'>
                             <li>react</li>
                             <li>ruby</li>
