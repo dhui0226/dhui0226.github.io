@@ -26,7 +26,7 @@ const Projects = () => {
                         </a>
                     </div>
                     <div>
-                       <p>a bot for discord that helps you track your watchlist of crytocurrencies</p>
+                       <p className='projectInfo'>a bot for discord that helps you track your watchlist of crytocurrencies</p>
                         <ul className='list'>
                             <li>discord.js</li>
                             <li>node js</li>
@@ -48,7 +48,7 @@ const Projects = () => {
                         </a>
                     </div>
                     <div>
-                        <p>e-commerce site for meats</p>
+                        <p className='projectInfo'>e-commerce site for meats</p>
                         <ul className='list'>
                             <li>react</li>
                             <li>ruby</li>
@@ -69,7 +69,7 @@ const Projects = () => {
                         </a>
                     </div>
                     <div>
-                        <p>website for coaching client</p>
+                        <p className='projectInfo'>website for coaching client</p>
                         <ul className='list'>
                             <li>react</li>
                             <li>ruby</li>
@@ -90,7 +90,7 @@ const Projects = () => {
                         </a>
                     </div>
                     <div>
-                        <p>work in progress</p>
+                        <p className='projectInfo'>work in progress</p>
                         <ul className='list'>
                             <li>react</li>
                             <li>ruby</li>
