@@ -15,7 +15,7 @@ const Projects = () => {
             <div className='projectList'>
                 <div className='projectOne'>
                     <a href='https://github.com/dhui0226/discord_bot' target='_blank'>
-                        <img className='projectImage' src={DiscordImage} alt='discord'/>
+                        <img className='projectImageOne' src={DiscordImage} alt='discord'/>
                     </a>
                     <div className='nameContainer'>
                         <a href='https://github.com/dhui0226/discord_bot' target='_blank'>
@@ -37,7 +37,7 @@ const Projects = () => {
                 </div>
                 <div className='projectTwo'>
                     <a href='https://github.com/dhui0226' target='_blank'>
-                        <img className='projectImage' src={gsImage} alt='project two'/>
+                        <img className='projectImageTwo' src={gsImage} alt='project two'/>
                     </a>
                     <div className='nameContainer'>
                         <a href='https://github.com/dhui0226' target='_blank'>
@@ -79,7 +79,7 @@ const Projects = () => {
                 </div>
                 <div className='projectFour'>
                     <a href='https://github.com/dhui0226' target='_blank'>
-                        <img className='projectImage' src={tbaImage} alt='project three'/>
+                        <img className='projectImageFour' src={tbaImage} alt='project three'/>
                     </a>
                     <div className='nameContainer'>
                         <a href='https://github.com/dhui0226' target='_blank'>
