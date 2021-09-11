@@ -34,10 +34,6 @@
     margin: 0 4rem 0 4rem;
 }
 
-.projectOne, .projectTwo, .projectThree, .projectFour {
-    
-}
-
 .projectOne, .projectThree {
     margin-left: 2rem;
     margin-right: 3rem;
@@ -48,21 +44,29 @@
     margin-left: 3rem;
 }
 
-.projectImage, .projectImageThree {
+.projectImageOne, .projectImageTwo, .projectImageThree, .projectImageFour {
     width: 100%;
     border-radius: 5px;
     transition: transform .2s;
 }
 
-.projectImage {
+.projectImageOne {
     background-color: #5865F2;
+}
+
+.projectImageTwo {
+    background-color: #800000;
 }
 
 .projectImageThree {
     background-color: lightgray;
 }
 
-.projectImage:hover {
+.projectImageFour {
+    background-color: #FFAE42;
+}
+
+.projectImageOne:hover, .projectImageTwo:hover, .projectImageThree:hover, .projectImageFour:hover {
     transform: scale(1.0625);
 }
 
@@ -91,8 +95,33 @@
     transform: scale(1.0625);
 }
 
+.projectInfo {
+    padding-bottom: .5rem;
+}
+
 .list {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    color: #888888;
+}
+
+.list > li {
+    padding-right: .5rem;
+}
+
+@media (max-width: 460px) {
+    .projectList {
+        grid-template-rows: .5fr .5fr .5fr .5fr;
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+
+    .projectTitleContainer > p {
+        padding: 0 1rem 0 1rem;
+    }
+
+    .projectOne, .projectTwo, .projectThree, .projectFour {
+        margin: 0 2rem 0 2rem;
+    }
 }

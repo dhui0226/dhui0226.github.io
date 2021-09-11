@@ -35,3 +35,17 @@ a {
     padding-left: .5rem;
     padding-right: .5rem;
 }
+
+@media (max-width: 460px) {
+    .david, .icons {
+        display: none;
+    }
+
+    .navContainer {
+        grid-template-columns: repeat(3, .5fr);
+    }
+
+    .links {
+        grid-column: 1 / span 3;
+    }
+}
