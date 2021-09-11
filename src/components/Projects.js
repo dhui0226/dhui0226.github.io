@@ -1,5 +1,4 @@
 import './Projects.css'
-import Image from './images/discordLogo.svg'
 import DiscordImage from './images/discordBotScreenshot.png'
 import InfamousImage from './images/powerliftingScreenshot.png'
 import gsImage from './images/graceshopperScreenshot.png'
