@@ -19,23 +19,9 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    padding-bottom: 1rem;
 }
 
-.desc {
+.homeContainer > p {
     font-size: 1.25rem;
-}
-
-.technologiesContainer {
-    margin: 2rem;
-    font-size: 2rem;
-    justify-content: center;
-}
-
-.technologiesContainer h2 {
-    font-size: 3rem;
-    text-align: center;
-}
-
-.technologiesContainer svg {
-    padding: 2rem;
 }
