@@ -1,6 +1,5 @@
 import './Home.css'
 import Image from './images/me.jpg'
-import { SiReact, SiHtml5, SiCss3, SiJavascript, SiRuby, SiRails, SiPostgresql, SiNodeDotJs } from 'react-icons/si'
 
 const Home = () => {
     return (
