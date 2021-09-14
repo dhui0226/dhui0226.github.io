@@ -3,6 +3,7 @@ import { default as About } from './About'
 import { default as Projects } from './Projects'
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si'
 import './Footer.css'
 
 const Footer = () => {
@@ -18,6 +19,7 @@ const Footer = () => {
                 <div className='fIcons'>
                     <a href='https://github.com/dhui0226' target="_blank"><FaGithub /></a>
                     <a href='https://www.linkedin.com/in/david-hui-81b783215/' target="_blank"><FaLinkedin /></a>
+                    <a href='mailto:dhui0226@gmail.com'><SiGmail /></a>
                 </div>
             </div>
 

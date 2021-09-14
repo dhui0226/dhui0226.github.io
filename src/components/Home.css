@@ -38,7 +38,18 @@ h1 {
     padding-bottom: 1rem;
 }
 
-.aboutBtn {
+.btnContainer {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3rem;
+}
+
+.btnContainer > a {
+    width: 75%;
+    padding: 0 1rem 0 1rem;
+}
+
+.aboutBtn, .contactBtn {
     background-color: black;
     color: white;
     transition: transform .2s;
@@ -49,7 +60,11 @@ h1 {
     cursor: pointer;
 }
 
-.aboutBtn:hover {
+.contactBtn {
+    height: 100%;
+}
+
+.aboutBtn:hover, .contactBtn:hover {
     transform: scale(1.0625);
 }
 
