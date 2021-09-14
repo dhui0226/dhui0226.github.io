@@ -53,8 +53,23 @@ h1 {
     transform: scale(1.0625);
 }
 
+@media (max-width: 768px) {
+    .homeItems > h1 {
+        text-align: center;
+    }
+}
+
 @media (max-width: 460px) {
+    .homeContainer {
+        display: flex;
+        padding: 0 1rem 0 1rem;
+    }
+
     .homeContainer > p {
         padding: 0 1rem 0 1rem;
+    }
+
+    .homeItems > h2 {
+        text-align: center;
     }
 }
