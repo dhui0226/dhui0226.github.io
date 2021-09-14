@@ -1,15 +1,22 @@
 .homeContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.homeItems {
+    grid-column: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-self: center;
 }
 
 .homeContainer img {
     height: 9rem;
     width: 9rem;
     border-radius: 50%;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 }
 
 h1 {
@@ -17,17 +24,64 @@ h1 {
     margin: 1rem;
 }
 
-h2 {
+.homeItems > h2 {
     font-size: 2rem;
+    padding-bottom: 3rem;
+}
+
+.homeItems > p {
+    font-size: 1.125rem;
+    padding-bottom: 3rem;
+}
+
+.homeItems > a {
     padding-bottom: 1rem;
 }
 
-.homeContainer > p {
-    font-size: 1.25rem;
+.aboutBtn {
+    background-color: black;
+    color: white;
+    transition: transform .2s;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    border: none;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.aboutBtn:hover {
+    transform: scale(1.0625);
+}
+
+@media (min-width: 461px) and (max-width: 768px) {
+    .homeContainer {
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+
+    .homeItems > h1 {
+        text-align: center;
+    }
+
+    .homeItems > h2 {
+        padding-bottom: 5rem;
+    }
+
+    .homeItems > p {
+        padding-bottom: 5rem;
+    }
 }
 
 @media (max-width: 460px) {
+    .homeContainer {
+        display: flex;
+        padding: 0 1rem 0 1rem;
+    }
+
     .homeContainer > p {
         padding: 0 1rem 0 1rem;
+    }
+
+    .homeItems > h2 {
+        text-align: center;
     }
 }
