@@ -53,9 +53,21 @@ h1 {
     transform: scale(1.0625);
 }
 
-@media (max-width: 768px) {
+@media (min-width: 461px) and (max-width: 768px) {
+    .homeContainer {
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+
     .homeItems > h1 {
         text-align: center;
+    }
+
+    .homeItems > h2 {
+        padding-bottom: 5rem;
+    }
+
+    .homeItems > p {
+        padding-bottom: 5rem;
     }
 }
 

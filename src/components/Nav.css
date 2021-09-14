@@ -36,6 +36,20 @@ a {
     padding-right: .5rem;
 }
 
+@media (min-width: 461px) and (max-width: 768px) {
+    .david, .icons {
+        display: none;
+    }
+
+    .links {
+        grid-column: 1 / span 3;
+    }
+
+    .links > a {
+        padding: 0 4.75rem 0 4.75rem;
+    }
+}
+
 @media (max-width: 460px) {
     .david, .icons {
         display: none;
@@ -47,5 +61,9 @@ a {
 
     .links {
         grid-column: 1 / span 3;
+    }
+
+    .links > a {
+        padding: 0 2rem 0 2rem;
     }
 }

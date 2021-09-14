@@ -38,10 +38,34 @@ h1 {
     padding: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     .aboutDesc {
         width: 100%;
-        padding: 0 1.5rem 0 1.5rem;
+        padding-bottom: 4rem;
+    }
+
+    .aboutDesc > p {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+@media (min-width: 461px) and (max-width: 768px) {
+    .aboutContainer {
+        display: grid;
+        grid-template-columns: .75fr 3fr .75fr;
+    }
+
+    .aboutContainer > h1, .aboutDesc, .technologiesContainer {
+        grid-column: 2;
+    }
+
+    .aboutContainer > h1 {
+        text-align: center;
+    }
+
+    .aboutDesc {
+        width: 100%;
     }
 }
 
