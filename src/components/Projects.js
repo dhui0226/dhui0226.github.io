@@ -36,14 +36,14 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className='projectTwo'>
-                    <a href='https://github.com/dhui0226' target='_blank'>
+                    <a href='https://github.com/Diamonds-Grace-Shopper/Grace-Shopper' target='_blank'>
                         <img className='projectImageTwo' src={gsImage} alt='project two'/>
                     </a>
                     <div className='nameContainer'>
-                        <a href='https://github.com/dhui0226' target='_blank'>
+                        <a href='https://github.com/Diamonds-Grace-Shopper/Grace-Shopper' target='_blank'>
                             <h2>Grace Shopper</h2>
                         </a>
-                        <a href='https://github.com/dhui0226' target='_blank'>
+                        <a href='https://github.com/Diamonds-Grace-Shopper/Grace-Shopper' target='_blank'>
                             <button>View Project</button>
                         </a>
                     </div>
@@ -59,14 +59,14 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className='projectThree'>
-                    <a href='https://github.com/dhui0226' target='_blank'>
+                    <a href='https://github.com/dhui0226/strength_coaching_site' target='_blank'>
                         <img className='projectImageThree' src={InfamousImage} alt='project three'/>
                     </a>
                     <div className='nameContainer'>
-                        <a href='https://github.com/dhui0226' target='_blank'>
+                        <a href='https://github.com/dhui0226/strength_coaching_site' target='_blank'>
                             <h2>Online Coaching Site</h2>
                         </a>
-                        <a href='https://github.com/dhui0226' target='_blank'>
+                        <a href='https://github.com/dhui0226/strength_coaching_site' target='_blank'>
                             <button>View Project</button>
                         </a>
                     </div>
