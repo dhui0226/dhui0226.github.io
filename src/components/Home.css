@@ -16,7 +16,7 @@
     height: 9rem;
     width: 9rem;
     border-radius: 50%;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 }
 
 h1 {
@@ -24,20 +24,33 @@ h1 {
     margin: 1rem;
 }
 
-h2 {
+.homeItems > h2 {
     font-size: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
 }
 
-.homeContainer > p {
-    font-size: 1.25rem;
+.homeItems > p {
+    font-size: 1.125rem;
+    padding-bottom: 3rem;
+}
+
+.homeItems > a {
+    padding-bottom: 1rem;
 }
 
 .aboutBtn {
     background-color: black;
     color: white;
+    transition: transform .2s;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 1.5rem;
+    border: none;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.aboutBtn:hover {
+    transform: scale(1.0625);
 }
 
 @media (max-width: 460px) {
