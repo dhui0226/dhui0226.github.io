@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
+import { SiGmail } from 'react-icons/si'
 import './Nav.css'
 
 const Nav = () => {
@@ -17,6 +18,7 @@ const Nav = () => {
             <div className='icons'>
                 <a href='https://github.com/dhui0226' target="_blank"><FaGithub /></a>
                 <a href='https://www.linkedin.com/in/david-hui-81b783215/' target="_blank"><FaLinkedin /></a>
+                <a href='mailto:dhui0226@gmail.com'><SiGmail /></a>
             </div> 
         </div>
     )
