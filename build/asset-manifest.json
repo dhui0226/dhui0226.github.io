@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55e33c1e.chunk.css",
+    "main.js": "/static/js/main.ccbae666.chunk.js",
+    "main.js.map": "/static/js/main.ccbae666.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0a26b43c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0a26b43c.js.map",
+    "static/js/2.a9ee4e2d.chunk.js": "/static/js/2.a9ee4e2d.chunk.js",
+    "static/js/2.a9ee4e2d.chunk.js.map": "/static/js/2.a9ee4e2d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.55e33c1e.chunk.css.map": "/static/css/main.55e33c1e.chunk.css.map",
+    "static/js/2.a9ee4e2d.chunk.js.LICENSE.txt": "/static/js/2.a9ee4e2d.chunk.js.LICENSE.txt",
+    "static/media/discordBotScreenshot.103daa4e.png": "/static/media/discordBotScreenshot.103daa4e.png",
+    "static/media/graceshopperScreenshot.12adfe8b.png": "/static/media/graceshopperScreenshot.12adfe8b.png",
+    "static/media/me.bcf607a3.jpg": "/static/media/me.bcf607a3.jpg",
+    "static/media/powerliftingScreenshot.2e84bbd1.png": "/static/media/powerliftingScreenshot.2e84bbd1.png",
+    "static/media/tbaScreenshot.fd28745b.png": "/static/media/tbaScreenshot.fd28745b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a26b43c.js",
+    "static/js/2.a9ee4e2d.chunk.js",
+    "static/css/main.55e33c1e.chunk.css",
+    "static/js/main.ccbae666.chunk.js"
+  ]
+}
