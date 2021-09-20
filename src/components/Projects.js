@@ -28,10 +28,10 @@ const Projects = () => {
                        <p className='projectInfo'>a bot for discord that helps you track your watchlist of crytocurrencies</p>
                         <ul className='list'>
                             <li>discord.js</li>
-                            <li>node js</li>
-                            <li>coingecko API</li>
-                            <li>postgresql</li>
-                            <li>heroku</li>
+                            <li>Node.js</li>
+                            <li>CoinGecko API</li>
+                            <li>PostgreSQL</li>
+                            <li>Heroku</li>
                         </ul>
                     </div>
                 </div>
@@ -50,11 +50,11 @@ const Projects = () => {
                     <div>
                         <p className='projectInfo'>e-commerce site for meats</p>
                         <ul className='list'>
-                            <li>react</li>
-                            <li>node js</li>
-                            <li>express</li>
-                            <li>postgresql</li>
-                            <li>heroku</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>PostgreSQL</li>
+                            <li>Heroku</li>
                         </ul>
                     </div>
                 </div>
@@ -73,7 +73,7 @@ const Projects = () => {
                     <div>
                         <p className='projectInfo'>website for coaching client</p>
                         <ul className='list'>
-                            <li>gatsby js</li>
+                            <li>Gatsby js</li>
                             <li>netlify</li>
                         </ul>
                     </div>
@@ -93,9 +93,9 @@ const Projects = () => {
                     <div>
                         <p className='projectInfo'>an app to keep track of your strength training workouts</p>
                         <ul className='list'>
-                            <li>react</li>
-                            <li>ruby</li>
-                            <li>ruby on rails</li>
+                            <li>React</li>
+                            <li>Ruby</li>
+                            <li>Ruby on Rails</li>
                         </ul>
                     </div>
                 </div>
