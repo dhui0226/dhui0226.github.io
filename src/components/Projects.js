@@ -79,23 +79,25 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className='projectFour'>
-                    <a href='https://github.com/dhui0226' target='_blank'>
+                    <a href='https://github.com/dhui0226/ribbit' target='_blank'>
                         <img className='projectImageFour' src={tbaImage} alt='project three'/>
                     </a>
                     <div className='nameContainer'>
-                        <a href='https://github.com/dhui0226' target='_blank'>
+                        <a href='https://github.com/dhui0226/ribbit' target='_blank'>
                             <h2>[Work in Progress]</h2>
                         </a>
-                        <a href='https://github.com/dhui0226' target='_blank'>
+                        <a href='https://github.com/dhui0226/ribbit' target='_blank'>
                             <button>View Project</button>
                         </a>
                     </div>
                     <div>
-                        <p className='projectInfo'>an app to keep track of your strength training workouts</p>
+                        <p className='projectInfo'>messenger platform</p>
                         <ul className='list'>
                             <li>React</li>
-                            <li>Ruby</li>
-                            <li>Ruby on Rails</li>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>PostgreSQL</li>
+                            <li>Heroku</li>
                         </ul>
                     </div>
                 </div>
