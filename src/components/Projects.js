@@ -71,7 +71,7 @@ const Projects = () => {
                         </a>
                     </div>
                     <div>
-                        <p className='projectInfo'>website for coaching client</p>
+                        <p className='projectInfo'>website for client to display strength coaching services</p>
                         <ul className='list'>
                             <li>Gatsby js</li>
                             <li>netlify</li>
